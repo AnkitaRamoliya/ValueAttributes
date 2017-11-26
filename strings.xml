@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">BizDesk</string>
+    <string name="facebook_app_id">871310273022885</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="password">Password</string>
+    <string name="new_password">New Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login_now">Login Now</string>
+    <string name="reset_now">Reset Password</string>
+    <string name="go_back">Go Back</string>
+    <string name="login_with_facebook">Login with Facebook</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="or">OR</string>
+    <string name="email_id">Email Id</string>
+    <string name="your_name">Your name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_filter">Filter</string>
+    <string name="action_date_filter">Date Filter</string>
+    <string name="action_party_filter">Party Filter</string>
+    <string name="action_search">Search</string>
+    <string name="action_share">Share</string>
+    <string name="action_notification">Notification</string>
+    <string name="login_with_google">Login with Google+</string>
+    <string name="hint_ok">OK</string>
+    <string name="logout_title">Logout?</string>
+    <string name="logout_msg">Are you sure you want to logout?</string>
+    <string name="hint_logout">Logout</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="title_no_internet">Internet connection error!</string>
+    <string name="msg_no_internet">You don\'t have an internet connection.</string>
+
+    <string name="session_closed">Session closed. Please login again to continue</string>
+
+    <string name="drawer_item_number"> Item </string>
+    <string name="drawer_item_selected">Drawer Item Selected</string>
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_filter">Filter</string>
+    <string name="nav_item_my_biz">My Biz</string>
+    <string name="nav_item_my_profile">My Profile</string>
+    <string name="nav_item_price_list">Price List</string>
+    <string name="nav_item_payment_outstanding">Payment Outstanding</string>
+    <string name="nav_item_payment_receipt_report">Payment Report</string>
+    <string name="nav_item_my_party">My Party</string>
+    <string name="nav_item_my_stock">My Stock</string>
+    <string name="nav_item_settings">Settings</string>
+
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_my_biz</item>
+        <item>@string/nav_item_my_profile</item>
+        <item>@string/nav_item_price_list</item>
+        <item>@string/nav_item_payment_outstanding</item>
+        <item>@string/nav_item_payment_receipt_report</item>
+        <item>@string/nav_item_my_party</item>
+        <item>@string/nav_item_my_stock</item>
+        <item>@string/nav_item_settings</item>
+    </string-array>
+    <string-array name="currency_type">
+        <item>INR</item>
+        <item>USD</item>
+    </string-array>
+</resources>

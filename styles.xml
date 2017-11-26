@@ -1,0 +1,239 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.FullScreen" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="txt_txt_primary_22">
+        <item name="android:textColor">@color/primaryText</item>
+        <item name="android:textSize">@dimen/_20sdp</item>
+    </style>
+
+    <style name="txt_txt_primary_20">
+        <item name="android:textColor">@color/primaryText</item>
+        <item name="android:textSize">@dimen/_18sdp</item>
+    </style>
+
+    <style name="txt_txt_primary_18">
+        <item name="android:textColor">@color/primaryText</item>
+        <item name="android:textSize">@dimen/_16sdp</item>
+    </style>
+
+    <style name="txt_txt_primary_16">
+        <item name="android:textColor">@color/primaryText</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+    </style>
+
+    <style name="txt_txt_primary_15">
+        <item name="android:textColor">@color/primaryText</item>
+        <item name="android:textSize">@dimen/_13sdp</item>
+    </style>
+
+    <style name="txt_txt_primary_14">
+        <item name="android:textColor">@color/primaryText</item>
+        <item name="android:textColorHint">@color/primaryText</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+    </style>
+
+    <style name="txt_txt_primary_12">
+        <item name="android:textColor">@color/primaryText</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+    </style>
+
+    <style name="txt_txt_primary_10">
+        <item name="android:textColor">@color/primaryText</item>
+        <item name="android:textSize">@dimen/_8sdp</item>
+    </style>
+
+    <style name="txt_txt_primary_9">
+        <item name="android:textColor">@color/primaryText</item>
+        <item name="android:textSize">@dimen/_7sdp</item>
+    </style>
+
+
+    <style name="txt_txt_secondary_22">
+        <item name="android:textColor">@color/secondaryText</item>
+        <item name="android:textSize">@dimen/_20sdp</item>
+    </style>
+
+    <style name="txt_txt_secondary_20">
+        <item name="android:textColor">@color/secondaryText</item>
+        <item name="android:textSize">@dimen/_18sdp</item>
+    </style>
+
+    <style name="txt_txt_secondary_18">
+        <item name="android:textColor">@color/secondaryText</item>
+        <item name="android:textSize">@dimen/_16sdp</item>
+    </style>
+
+    <style name="txt_txt_secondary_15">
+        <item name="android:textColor">@color/secondaryText</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+    </style>
+
+    <style name="txt_txt_secondary_16">
+        <item name="android:textColor">@color/secondaryText</item>
+        <item name="android:textSize">@dimen/_13sdp</item>
+    </style>
+
+    <style name="txt_txt_secondary_14">
+        <item name="android:textColor">@color/secondaryText</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+    </style>
+
+    <style name="txt_txt_secondary_12">
+        <item name="android:textColor">@color/secondaryText</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+    </style>
+
+    <style name="txt_txt_secondary_10">
+        <item name="android:textColor">@color/secondaryText</item>
+        <item name="android:textSize">@dimen/_8sdp</item>
+    </style>
+
+    <style name="txt_txt_secondary_9">
+        <item name="android:textColor">@color/secondaryText</item>
+        <item name="android:textSize">@dimen/_7sdp</item>
+    </style>
+
+    <style name="txt_gray_50_22">
+        <item name="android:textColor">@color/gray_50</item>
+        <item name="android:textSize">@dimen/_20sdp</item>
+    </style>
+
+    <style name="txt_gray_50_24">
+        <item name="android:textColor">@color/gray_50</item>
+        <item name="android:textSize">@dimen/_22sdp</item>
+    </style>
+
+    <style name="txt_gray_50_20">
+        <item name="android:textColor">@color/gray_50</item>
+        <item name="android:textSize">@dimen/_18sdp</item>
+    </style>
+
+    <style name="txt_gray_50_18">
+        <item name="android:textColor">@color/gray_50</item>
+        <item name="android:textSize">@dimen/_16sdp</item>
+    </style>
+
+    <style name="txt_gray_50_15">
+        <item name="android:textColor">@color/gray_50</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+    </style>
+
+    <style name="txt_gray_50_16">
+        <item name="android:textColor">@color/gray_50</item>
+        <item name="android:textSize">@dimen/_13sdp</item>
+    </style>
+
+    <style name="txt_gray_50_14">
+        <item name="android:textColor">@color/gray_50</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+    </style>
+
+    <style name="txt_gray_50_12">
+        <item name="android:textColor">@color/gray_50</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+    </style>
+
+    <style name="txt_gray_50_10">
+        <item name="android:textColor">@color/gray_50</item>
+        <item name="android:textSize">@dimen/_8sdp</item>
+    </style>
+
+    <style name="txt_gray_50_9">
+        <item name="android:textColor">@color/gray_50</item>
+        <item name="android:textSize">@dimen/_7sdp</item>
+    </style>
+
+    <style name="txt_primary_10">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/_8sdp</item>
+    </style>
+
+    <style name="txt_primary_12">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+    </style>
+
+    <style name="txt_primary_14">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+    </style>
+
+    <style name="txt_primary_16">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+    </style>
+
+    <style name="txt_primary_18">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/_17sdp</item>
+    </style>
+
+    <style name="txt_primary_20">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/_18sdp</item>
+    </style>
+
+    <style name="txt_primary_22">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/_20sdp</item>
+    </style>
+
+    <style name="txt_primary_24">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/_22sdp</item>
+    </style>
+
+    <style name="MaterialSearchViewStyle">
+        <!-- Background for the search bar -->
+        <item name="searchBackground">@color/colorPrimary</item>
+
+        <!-- Change voice icon -->
+        <item name="searchVoiceIcon">@drawable/ic_action_voice_search_inverted</item>
+
+        <!-- Change clear text icon -->
+        <item name="searchCloseIcon">@drawable/ic_action_navigation_close_inverted</item>
+
+        <!-- Change up icon -->
+        <item name="searchBackIcon">@drawable/ic_action_navigation_arrow_back_inverted</item>
+
+        <!-- Change icon for the suggestions -->
+        <item name="searchSuggestionIcon">@drawable/ic_suggestion</item>
+
+        <!-- Change background for the suggestions list view -->
+        <item name="searchSuggestionBackground">@android:color/white</item>
+
+        <!-- Change text color for edit text. This will also be the color of the cursor -->
+        <item name="android:textColor">@color/colorWhite</item>
+
+        <!-- Change hint text color for edit text -->
+        <item name="android:textColorHint">@color/colorWhite</item>
+
+        <!-- Hint for edit text -->
+        <item name="android:hint">@string/search_hint</item>
+    </style>
+</resources>

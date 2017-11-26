@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyTextView">
+        <attr name="fontName" format="string" />
+    </declare-styleable>
+    <declare-styleable name="DTextView">
+        <attr name="textFontFace" format="enum">
+            <enum name="REGULAR" value="1" />
+            <enum name="LIGHT" value="2" />
+            <enum name="ITALIC" value="3" />
+            <enum name="BOLD" value="4" />
+            <enum name="ZAPFINO" value="5" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="DEditText">
+        <attr name="editTextFontFace" format="enum">
+            <enum name="REGULAR" value="1" />
+            <enum name="LIGHT" value="2" />
+            <enum name="ITALIC" value="3" />
+            <enum name="BOLD" value="4" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="DButton">
+        <attr name="buttonFontFace" format="enum">
+            <enum name="REGULAR" value="1" />
+            <enum name="LIGHT" value="2" />
+            <enum name="ITALIC" value="3" />
+            <enum name="BOLD" value="4" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="DRadioButton">
+        <attr name="radioFontFace" format="enum">
+            <enum name="REGULAR" value="1" />
+            <enum name="LIGHT" value="2" />
+            <enum name="ITALIC" value="3" />
+            <enum name="BOLD" value="4" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="DCheckBox">
+        <attr name="checkboxFontFace" format="enum">
+            <enum name="REGULAR" value="1" />
+            <enum name="LIGHT" value="2" />
+            <enum name="ITALIC" value="3" />
+            <enum name="BOLD" value="4" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="DSeekbar">
+        <attr name="progressLabelTextSize" format="float" />
+        <attr name="progressLabelTextColor" format="color" />
+        <attr name="progressLabelFontFace" format="enum">
+            <enum name="REGULAR" value="1" />
+            <enum name="LIGHT" value="2" />
+            <enum name="ITALIC" value="3" />
+            <enum name="BOLD" value="4" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="DRangeSeekbar">
+        <attr name="rangeLabelTextSize" format="float" />
+        <attr name="rangeLabelTextColor" format="color" />
+        <attr name="rangeLabelFontFace" format="enum">
+            <enum name="REGULAR" value="1" />
+            <enum name="LIGHT" value="2" />
+            <enum name="ITALIC" value="3" />
+            <enum name="BOLD" value="4" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="SlidingTabLayout">
+        <attr name="indicatorColor" format="color" />
+        <attr name="shouldExpand" format="boolean" />
+        <attr name="tabBackground" format="reference" />
+        <attr name="tabBackgroundTextViewId" format="reference" />
+    </declare-styleable>
+</resources>
